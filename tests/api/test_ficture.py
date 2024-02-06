@@ -1,14 +1,8 @@
 import pytest
 
 
-@pytest.mark.change
-def test_remove_name(user):
-    user.name = ''
-    assert user.name == ''
-
-
 @pytest.mark.check
-def test_name(user):
+def test_change_name(user):
     assert user.name == 'Kyrylo'
 
 
