@@ -1,6 +1,6 @@
 import sqlite3
 
-BASE_DIR = r'D:\Program Files\Git\qa1\qa1'
+from conftest import BASE_DIR
 
 
 class Database:
